@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Loops {
   public static void main (String[] args){
-    //printSqrt( 420 , 20);
-    //printPower(8, 4);
+    printSqrt( 420 , 20);
+    printPower(8, 4);
     printFactorial(3);
     printFactorial(7);
   }  

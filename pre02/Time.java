@@ -14,7 +14,7 @@ public class Time {
     int sec_in_day = 24*60*60;
     System.out.println("Seconds left in the day = " + (sec_in_day -sec_since_midnight ));
     //Part3
-    System.out.println("Percentage of the day that has passed = " + (sec_since_midnight *100 / sec_in_day));
+    System.out.printf("Percentage of the day that has passed = %.1f%s \n" , (((double)sec_since_midnight *100 / sec_in_day)), "%");
     //Part4
     hour = 16;
     minute = 40;
